@@ -7,8 +7,8 @@ Terraform module to attach managed IAM policies to an IAM role.
 To attach AWS-managed or customer-managed IAM policies to an existing IAM role:
 
 ```hcl
-module "iam-role-policy-attachments" {
-  source  = "dsohqlab/iam-role-policy-attachments/aws"
+module "iam-role-policy-attachment" {
+  source  = "dsohqlab/iam-role-policy-attachment/aws"
   version = "~> 1.0.0"
 
   role = "application-role"

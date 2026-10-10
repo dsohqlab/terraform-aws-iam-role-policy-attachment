@@ -1,4 +1,4 @@
-module "iam_policy_attachments" {
+module "iam_policy_attachment" {
   source = "../.."
 
   role = "application-role"
